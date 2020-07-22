@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('templates.default');
 });
 
@@ -27,3 +27,6 @@ Route::get('/gallery', function(){
     return view('templates.gallery');
 });
 
+Route::get('/', function(){
+    return view('templates.login');
+});
