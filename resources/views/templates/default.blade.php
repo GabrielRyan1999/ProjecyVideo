@@ -9,7 +9,8 @@
 	<link rel="icon" href="images/favicon.ico" type="image/ico" />
 
     <title>SMA DeBritto Yogyakarta | </title>
-
+    <!-- CSS 
+    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}"> -->
     <!-- Bootstrap -->
     <link href="{{ asset('assets/vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Font Awesome -->
@@ -18,7 +19,8 @@
     <link href="{{ asset('assets/vendors/nprogress/nprogress.css') }}" rel="stylesheet">
     <!-- iCheck -->
     <link href="{{ asset('assets/vendors/iCheck/skins/flat/green.css') }}" rel="stylesheet">
-	
+	<!-- Tes 
+  <link href="https://stackpath.bootstrapcdm.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"> -->
     <!-- bootstrap-progressbar -->
     <link href="{{ asset('assets/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css') }}" rel="stylesheet">
     <!-- JQVMap -->
@@ -58,102 +60,23 @@
             <!-- sidebar menu -->
             <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
               <div class="menu_section">
-                <h3>General</h3>
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="index.html">Dashboard</a></li>
-                      <li><a href="index2.html">Dashboard2</a></li>
-                      <li><a href="index3.html">Dashboard3</a></li>
+                      <li><a href="/">Mata Kuliah</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-edit"></i> Upload <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="form.html">General Form</a></li>
-                      <li><a href="form_advanced.html">Advanced Components</a></li>
-                      <li><a href="form_validation.html">Form Validation</a></li>
-                      <li><a href="form_wizards.html">Form Wizard</a></li>
-                      <li><a href="form_upload.html">Form Upload</a></li>
-                      <li><a href="form_buttons.html">Form Buttons</a></li>
+                      <li><a href="/upload">Form Upload Video</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-desktop"></i> UI Elements <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-desktop"></i> Media <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="general_elements.html">General Elements</a></li>
-                      <li><a href="media_gallery.html">Media Gallery</a></li>
-                      <li><a href="typography.html">Typography</a></li>
-                      <li><a href="icons.html">Icons</a></li>
-                      <li><a href="glyphicons.html">Glyphicons</a></li>
-                      <li><a href="widgets.html">Widgets</a></li>
-                      <li><a href="invoice.html">Invoice</a></li>
-                      <li><a href="inbox.html">Inbox</a></li>
-                      <li><a href="calendar.html">Calendar</a></li>
+                      <li><a href="/gallery">Video Gallery</a></li>
+                      <li><a href="/calendar">Calendar</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="tables.html">Tables</a></li>
-                      <li><a href="tables_dynamic.html">Table Dynamic</a></li>
-                    </ul>
-                  </li>
-                  <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="chartjs.html">Chart JS</a></li>
-                      <li><a href="chartjs2.html">Chart JS2</a></li>
-                      <li><a href="morisjs.html">Moris JS</a></li>
-                      <li><a href="echarts.html">ECharts</a></li>
-                      <li><a href="other_charts.html">Other Charts</a></li>
-                    </ul>
-                  </li>
-                  <li><a><i class="fa fa-clone"></i>Layouts <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="fixed_sidebar.html">Fixed Sidebar</a></li>
-                      <li><a href="fixed_footer.html">Fixed Footer</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <div class="menu_section">
-                <h3>Live On</h3>
-                <ul class="nav side-menu">
-                  <li><a><i class="fa fa-bug"></i> Additional Pages <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="e_commerce.html">E-commerce</a></li>
-                      <li><a href="projects.html">Projects</a></li>
-                      <li><a href="project_detail.html">Project Detail</a></li>
-                      <li><a href="contacts.html">Contacts</a></li>
-                      <li><a href="profile.html">Profile</a></li>
-                    </ul>
-                  </li>
-                  <li><a><i class="fa fa-windows"></i> Extras <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="page_403.html">403 Error</a></li>
-                      <li><a href="page_404.html">404 Error</a></li>
-                      <li><a href="page_500.html">500 Error</a></li>
-                      <li><a href="plain_page.html">Plain Page</a></li>
-                      <li><a href="login.html">Login Page</a></li>
-                      <li><a href="pricing_tables.html">Pricing Tables</a></li>
-                    </ul>
-                  </li>
-                  <li><a><i class="fa fa-sitemap"></i> Multilevel Menu <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                        <li><a href="#level1_1">Level One</a>
-                        <li><a>Level One<span class="fa fa-chevron-down"></span></a>
-                          <ul class="nav child_menu">
-                            <li class="sub_menu"><a href="level2.html">Level Two</a>
-                            </li>
-                            <li><a href="#level2_1">Level Two</a>
-                            </li>
-                            <li><a href="#level2_2">Level Two</a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li><a href="#level1_2">Level One</a>
-                        </li>
-                    </ul>
-                  </li>                  
-                  <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a></li>
-                </ul>
               </div>
 
             </div>
@@ -281,117 +204,245 @@
            
         <!-- /page content -->
         <div class="card-columns">
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Agama</p>
+                <div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Agama</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Antropologi</p>
+</div>                <div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Antropologi</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Bahasa Indonesia</p>
+</div>
+                <div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Bahasa Indonesia</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Bahasa Inggris</p>
+</div>
+<div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Bahasa Inggris</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Bimbingan Konseling</p>
+</div>
+<div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Biologi</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Biologi</p>
+</div>
+<div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Bimbingan Konseling</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
     </div>
-  </div>
+</div>
+</div>
+
+<div class="card-columns">
+<div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Ekonomi</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Fisika</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Geografi</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Jerman</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Kimia</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Mandarin</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
+    </div>
+</div>
+
 </div>
 <div class="card-columns">
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Ekonomi</p>
+<div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Matematika
+        </h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
     </div>
-  </div>
+</div>              
   <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Fisika</p>
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Pendidikan Jasmani</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Geografi</p>
+</div>                
+<div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Pendidikan Nilai</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Jerman</p>
+</div>
+<div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Perancis</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Kimia</p>
+</div>
+<div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">PKN</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Mandarin</p>
+</div>
+<div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">PKWU</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
     </div>
-  </div>
+</div>
 </div>
 <div class="card-columns">
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Matematika</p>
+<div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Sejarah</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Pendidikan Jasmani</p>
-    </div>
-  </div>
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Pendidikan Nilai</p>
-    </div>
-  </div>
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Perancis</p>
-    </div>
-  </div>
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">PKN</p>
-    </div>
-  </div>
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">PKWU</p>
-    </div>
-  </div>
 </div>
-<div class="card-columns">
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Sejarah</p>
+<div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Seni Rupa</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Seni Rupa</p>
+</div>
+<div class="card bg-light">
+     <div class="card-body text-center">
+       <div class="card text-center">
+<img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+       <div class="card-body">
+        <h5 class="card-title">Sosiologi</h5>
+        <p class="card-text">Klik Disini</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <p class="card-text">Sosiologi</p>
-    </div>
-  </div>
+</div>
 </div>
         <!-- footer content -->
         <footer>
