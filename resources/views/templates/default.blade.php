@@ -38,7 +38,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-            <a href="/home" class="site_title"><i class="fa fa-paw"></i> <span style="font-size:70%">SMA Kolese De Britto</span></a>
+            <a href="/home" class="site_title"><img src="{{asset ('assets/images/logo.png')}}" style="width:50px"> <span style="font-size:70%">SMA Kolese De Britto</span></a>
             </div>
             <div class="clearfix"></div>
 
@@ -113,7 +113,7 @@
                     <img src="images/img.jpg" alt="">John Doe
                   </a>
                   <div class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item"  href="javascript:;"> Profile</a>
+                    <a class="dropdown-item"  href="/profile"> Profile</a>
                       <a class="dropdown-item"  href="javascript:;">
                         <span class="badge bg-red pull-right">50%</span>
                         <span>Settings</span>
@@ -139,9 +139,11 @@
                 <div class="card bg-light">
      <div class="card-body text-center">
        <div class="card text-center">
+       <a href="/agama">
 <img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+</a>
        <div class="card-body">
-        <h5 class="card-title">Agama</h5>
+        <h5 class="card-title"><a href="/agama"> Agama</a></h5>
         </div>
       </div>
     </div>
@@ -158,7 +160,9 @@
                 <div class="card bg-light">
      <div class="card-body text-center">
        <div class="card text-center">
+       <a href="/ind">
 <img src="{{asset ('assets/images/Agama.jpg') }}" class="card-img-top">
+</a>
        <div class="card-body">
         <h5 class="card-title">Bahasa Indonesia</h5>
         </div>

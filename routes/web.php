@@ -30,3 +30,17 @@ Route::get('/gallery', function(){
 Route::get('/', function(){
     return view('templates.login');
 });
+Route::get('/agama', function(){
+    return view('templates.Matkul.agama');
+});
+Route::get('/ind', function(){
+    return view('templates.Matkul.ind');
+});
+Route::get('/profile', function(){
+    return view('templates.profile');
+});
+Route::get('profile','UserController@profile');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

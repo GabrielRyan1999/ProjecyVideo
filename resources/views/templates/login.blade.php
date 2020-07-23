@@ -68,7 +68,7 @@
                 <input type="text" class="form-control" placeholder="Nama" required="" />
               </div>
               <div>
-                <input type="email" class="form-control" placeholder="Nomor Induk Siswa" required="" />
+                <input type="text" class="form-control" placeholder="Nomor Induk Siswa" required="" />
               </div>
               <div>
                 <input type="password" class="form-control" placeholder="Password" required="" />

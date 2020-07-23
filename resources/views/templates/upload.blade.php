@@ -30,7 +30,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="/home" class="site_title"> <span style="font-size: 75%">Kolese DeBritto Yogyakarta</span></a>
+            <a href="/home" class="site_title"><img src="{{asset ('assets/images/logo.png')}}" style="width:50px"> <span style="font-size:70%">SMA Kolese De Britto</span></a>
             </div>
 
             <div class="clearfix"></div>
