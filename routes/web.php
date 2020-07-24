@@ -100,4 +100,12 @@ Route::get('profile','UserController@profile');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::get('/login', 'User@login');
+Route::post('/loginPost', 'User@loginPost');
+Route::get('/register', 'User@register');
+Route::post('/registerPost', 'User@registerPost');
+Route::get('/logout', 'User@logout');
+Route::get('/home', 'User@index');
+
